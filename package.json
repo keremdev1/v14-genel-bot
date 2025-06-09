@@ -1,0 +1,39 @@
+{
+  "name": "discordjs-14",
+  "version": "5.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "keremdev",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^1.0.0",
+    "@discordjs/opus": "^0.10.0",
+    "@discordjs/voice": "^0.18.0",
+    "@top-gg/sdk": "^3.1.6",
+    "ascii-table": "^0.0.9",
+    "better-sqlite3": "^11.1.2",
+    "canvafy": "^7.1.0",
+    "chalk": "^5.0.1",
+    "croxydb": "^0.0.24",
+    "discord-gamecord": "^4.4.2",
+    "discord-html-transcripts": "^3.2.0",
+    "discord.js": "^14.19.3",
+    "express": "^4.18.1",
+    "ffmpeg-static": "^5.2.0",
+    "figlet": "^1.5.2",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security",
+    "humanize-duration": "^3.32.1",
+    "jimp": "^0.22.12",
+    "moment": "^2.29.4",
+    "moment-duration-format": "^2.3.2",
+    "ytdl-core": "^4.11.5"
+  },
+  "engines": {
+    "node": "16.x"
+  }
+}

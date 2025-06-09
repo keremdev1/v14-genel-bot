@@ -6,6 +6,9 @@ exports.run = async (client, message, args) => {
     }
     const rol = message.mentions.roles.first();
     if (!rol) return await message.reply("Lütfen bir rol etiketleyin. Örnek: `!rolver @Rol @Kullanıcı1 @Kullanıcı2`");
+    if (rol.position >= bot.roles.highest.position) {
+         return await message.reply(`Bu rol botun rolünden yüksek olduğu için verilemez!`);
+    }
     const üyeler = message.mentions.members.filter(m => m.id !== message.guild.id && !m.user.bot);
     if (!üyeler.size) return await message.reply("Lütfen en az bir kullanıcı etiketleyin.");
     let başarı = 0;
